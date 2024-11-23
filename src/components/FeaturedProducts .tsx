@@ -35,7 +35,7 @@ const FeaturedProducts: React.FC = () => {
     <div className="py-16 bg-gray-100 sm:px-4 lg:px-16">
       <h2 className="text-3xl font-bold text-center mb-6">Productos Destacados</h2>
       {/* Cambia a diseño vertical en pantallas pequeñas */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto">
+      <div className="grid grid-cols-1 px-5 md:grid-cols-2 lg:grid-cols-3 gap-6 container mx-auto">
         {currentImages.map((image, index) => (
           <ProductCard
             key={index}

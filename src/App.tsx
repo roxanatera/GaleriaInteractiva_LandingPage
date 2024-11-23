@@ -7,13 +7,13 @@ import InfoBanner from "./components/InfoBanner";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
-
 const App: React.FC = () => {
   return (
     <div className="flex flex-col sm:flex-col w-full">
       <Header />
       <main className="flex flex-col sm:flex-col">
         <Hero />
+        <InfoBanner /> 
         <FeaturedProducts />
         <InfoBanner /> 
         <Categories />
